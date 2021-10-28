@@ -1,0 +1,79 @@
+body {
+    background: repeating-linear-gradient(45deg, #082319, #2ec18b);
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.thin-border {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    margin: 50px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tint {
+    color:white;
+    font-family: 'Big Shoulders Text', cursive;
+}
+.espacito{
+    margin-left: 47%;
+    margin-top: 20px;
+}
+.tam1{
+    font-weight: bolder;
+}
+.tam2{
+    font-weight: 100;
+}
+.tam3 {
+    font-weight: lighter;
+}
+.sk{
+    font-weight: bold;
+}
+.tentav{
+    text-align: center;
+}
+#nome{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#moradia{
+    font-family: 'Big Shoulders Text', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Audiowide&family=Big+Shoulders+Text:wght@100&display=swap');
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
